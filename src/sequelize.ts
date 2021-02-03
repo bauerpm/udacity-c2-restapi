@@ -9,7 +9,7 @@ export const sequelize = new Sequelize({
   "password": c.password,
   "database": c.database,
   "host": c.host,
-  dialect: c.dialect,
+  dialect: 'postgres',
   storage: ':memory:',
 });
 
